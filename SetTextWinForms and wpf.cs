@@ -1,2 +1,2 @@
 string script = TEXT;
-await Editor.CoreWebView2.ExecuteScriptAsync($"editor.setValue(`{script}`)");
+await WEBVIEW2NAME.CoreWebView2.ExecuteScriptAsync($"editor.setValue(`{script}`)");
