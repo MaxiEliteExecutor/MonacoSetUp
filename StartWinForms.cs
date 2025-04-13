@@ -1,7 +1,7 @@
 try
 {
     await WEBVIEW2NAME.EnsureCoreWebView2Async(null);
-    WEBVIEW2NAME.CoreWebView2.Navigate(new Uri($"file:///{Directory.GetCurrentDirectory()}/Editor/monaco.html").ToString());
+    WEBVIEW2NAME.CoreWebView2.Navigate(new Uri($"https://getarcexecuter.netlify.app/editor/editor").ToString());
 }
 catch (Exception ex)
 {
