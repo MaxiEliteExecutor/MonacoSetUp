@@ -45,7 +45,7 @@ public partial class MainForm : Form
 ```csharp
 private void SetScriptButton_Click(object sender, EventArgs e)
 {
-    MonacoAPI.SetUpEditor.SetScript(webView21.CoreWebView2, "console.log('Hello World');");
+    MonacoAPI.SetUpEditor.SetScript(webView21.CoreWebView2, "print('Hello World');");
 }
 
 private void GetScriptButton_Click(object sender, EventArgs e)
